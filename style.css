@@ -1,0 +1,79 @@
+/*
+ Theme Name:   tk-donny
+ Theme URI:    http://example.com/twenty-fifteen-child/
+ Description:  Twenty Fifteen Child Theme
+ Author:       John Doe
+ Author URI:   http://example.com
+ Template:     _tk-master
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twenty-fifteen-child
+*/
+@import url("//fonts.googleapis.com/css?family=Lato");
+body{
+  font-family: "Lato";
+}
+.site-info>a,.widget.widget_archive>ul.nav>li>a,.widget.widget_recent_entries>ul.nav>li>a,
+.widget.widget_categories>ul.nav>li>a,a.post-edit-link,span.comments-link>a,
+span.cat-links>a{
+  color:#df691a !important;
+}
+ select, textarea{
+    color: black!important;
+}
+
+textarea:focus, input:focus {
+    color: black!important;
+}
+
+.nav.navbar-nav>li>a:hover{
+background-color:#c35c17 !important;
+}
+* {
+  border-radius: 0 !important;
+  color:#fff !important;
+}
+.entry-content>p>a>span{
+  color:#df691a!important;
+}
+h1.page-title>a{
+  color:#df691a!important;
+}
+.navbar-default{
+  background-color:#df691a; 
+}
+body{
+  background-color:#2b3e50;
+  color:#ebebeb;
+}
+
+
+html, body {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  font-weight: 300;
+  line-height: 1.5;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    background-color: #c35c17;
+}
+li.nav-previous.previous>a,li.nav-next.next>a,.btn.btn-primary,
+input.wpcf7-form-control.wpcf7-submit{
+  background-color:#df691a;
+  border-color:#c35c17;
+}
+.wpcf7{
+  background-color:#3f5367;
+  display:block;
+}
+
+.jumbotron{
+  background-color:#3f5367;
+}
+.navbar-default{
+    border-color:#c35c17 ;
+}
+
